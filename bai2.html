@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        h3{
+            margin: 0; margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin: auto; width: 35%;border: 1px solid black; ">
+        <div style="background-color: aqua; height: 100px; display: flex;" >
+            <h2 style="margin: auto ; ">ĐĂNG KÍ DỊCH VỤ</h2>
+        </div>
+        <div style="margin-left: 3%;"> 
+            <h3 >Họ và Tên</h3>
+            <input type="text" style="width: 95%; height: 35px;" >
+            <h3>Ngành Nghề</h3>
+            <input name="gender" id="GD" type="radio" value="Giáo Dục">
+            <label for="GD">Giáo Dục</label>
+            <input name="gender" id="KD" type="radio" value="Kinh Doanh"> 
+            <label for="KD">Kinh Doanh</label>
+            <input name="gender" id="XD" type="radio" value="Xây Dựng">
+            <label for="XD">Xây Dựng</label>
+            <h3 >Email</h3>
+            <input type="text"  style="width: 95%; height: 35px;">
+            <h3 >Mật Khẩu</h3>
+            <input type="password"  style="width: 95%; height: 35px;">
+            <h3 >Số điện thoại</h3>
+            <input type="number" style="width: 95%; height: 35px;">
+            <br>
+            <br>    
+            <label for="yeuthich"><strong>Chọn địa điểm yêu thích</strong> </label>
+            <br>
+            
+            <select name="F1" id="yeuthich" style="width: 96%; height: 35px;">
+                <option value="1">Đầm Sen - TP.HCM</option>
+                <option value="2">Cầu trường Tiền - Huế</option>
+                <option value="3">Quảng trường Lâm Viên - Đà Lạt</option>
+                <option value="4">Cầu Xóm bóng - Nha Trang</option>
+                <option value="5">Đồi cát bay - Bình Thuận</option>
+            </select>
+            <br>
+            
+        </div>
+        <input style=" display: block; margin: auto ; margin-top: 10px; width: 90px; height: 30px; background-color: aqua;" value="Đăng kí" type="button" onclick="alert('bạn đã đăng kí thành công')">
+    </div>
+</body>
+</html>
