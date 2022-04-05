@@ -1,1 +1,1 @@
-this my stupid hlmt i' study at school :D 
+this my stupid hlmt i'm study at school :D 
